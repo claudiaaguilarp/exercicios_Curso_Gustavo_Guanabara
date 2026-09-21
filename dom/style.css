@@ -1,0 +1,20 @@
+#area{
+    background-color: rgb(31, 69, 31);
+    color: white;
+    width: 200px;
+    line-height: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+
+input{
+    width: 90px;
+    font-size: 18px;
+}
+#res{
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+    color: brown;
+}

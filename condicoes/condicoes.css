@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    width: 90%;
+    height: 550px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(243, 240, 240);
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    width: 300px;
+    
+}
+input{
+    text-align: center;
+    font-size: 15px;
+}
