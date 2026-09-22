@@ -4,8 +4,10 @@ function calcular(){
     let res = document.getElementById('res')
 
     if(veloc >60){
-        res.innerHTML = `Você está a ${veloc}km/h, velocidade acima do permitido. MULTADO!!!`
+        res.innerHTML = `<p>Você está a ${veloc}km/h, velocidade acima do permitido. MULTADO!!! </p> `
+        
     }else{
-        res.innerHTML = `Você está a ${veloc}km/h, dentro do permitido. `
+        res.innerHTML = `<p>Você está a ${veloc}km/h, dentro do permitido.</p> `
+        
     }
 }
