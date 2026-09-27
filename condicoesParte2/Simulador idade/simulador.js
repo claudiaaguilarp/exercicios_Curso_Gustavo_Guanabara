@@ -25,16 +25,16 @@ function verificar(){
             }
 
        }else if(fsex[1].checked){
-        genero = 'Mulher'
-        if(idade >=0 && idade < 13){
-                img.setAttribute('src', 'menina.png')
+            genero = 'Mulher'
+            if(idade >=0 && idade < 13){
+                    img.setAttribute('src', 'menina.png')
             }else if(idade < 21){
-                img.setAttribute('src', 'jovem_fem.png')
+                    img.setAttribute('src', 'jovem_fem.png')
             }else if(idade < 50){
-                img.setAttribute('src', 'adulta.png')
+                    img.setAttribute('src', 'adulta.png')
             }else{
-                img.setAttribute('src', 'idosa.png')
-            }
+                    img.setAttributrwswne('src', 'idosa.png')
+                }
        }
        resp.style.textAlign = 'center'
        resp.innerHTML = `Detectamos ${genero} com ${idade} anos`
