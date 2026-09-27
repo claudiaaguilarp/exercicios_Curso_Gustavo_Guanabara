@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="imc.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/calculadora_imc/images/logo.svg" alt="C-IMC Logo">
+
+        </div>
+        <div class="menu">
+            <a href="#" target="_blank" rel="noopener noreferrer">Início</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Sobre</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Dicas</a>
+        </div>
+    </header>
+    <main class="principal">
+        <section class="container">
+            <section class="inf">
+                <h2>Entrada de dados</h2>
+                <label for="peso">Seu peso (kg)</label>
+                <input type="text">
+                <label for="peso">Sua altura (cm)</label>
+                <input type="text">
+                <button type="submit" >[ Calcular IMC ]</button>
+
+            </section>
+            <section class="res" id="res">
+                <h2>Seu Resultado</h2>
+                <div id="result">
+
+                </div>
+                <div id="faixa">
+
+                </div>
+                <div id="mensagem">
+
+                </div>
+
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Aviso: Esta ferramenta não substitui uma consulta médica
+        </p>
+    </footer>
+    
+</body>
+</html>
