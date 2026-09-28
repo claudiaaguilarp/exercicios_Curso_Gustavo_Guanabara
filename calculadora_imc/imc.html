@@ -23,22 +23,25 @@
             <section class="inf">
                 <h2>Entrada de dados</h2>
                 <label for="peso">Seu peso (kg)</label>
-                <input type="text">
-                <label for="peso">Sua altura (cm)</label>
-                <input type="text">
-                <button type="submit" >[ Calcular IMC ]</button>
+                <input type="text" id="peso">
+                <label for="altura">Sua altura (cm)</label>
+                <input type="text" id="altura">
+                <button type="submit" value="calcular" onclick="calcular()">[ Calcular IMC ]</button>
+                <p id="erro"></p>
 
             </section>
             <section class="res" id="res">
                 <h2>Seu Resultado</h2>
                 <div id="result">
-
+                    <h3 id="imc_res"></h3>
+                    <p>Seu IMC</p>                    
                 </div>
                 <div id="faixa">
+                    
 
                 </div>
                 <div id="mensagem">
-
+                    
                 </div>
 
             </section>
@@ -49,6 +52,7 @@
             Aviso: Esta ferramenta não substitui uma consulta médica
         </p>
     </footer>
+<script src="imc.js"></script>
     
 </body>
 </html>
