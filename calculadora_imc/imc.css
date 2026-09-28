@@ -105,6 +105,7 @@ footer{
     align-items: center;
     justify-content: center;
     height: 300px;
+    gap: 22px;
 }
 
 #result h3{
