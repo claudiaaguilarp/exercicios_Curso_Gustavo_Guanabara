@@ -34,7 +34,7 @@ function calcular(){
             mens.innerHTML = 'Ligeiramente acima do peso. Considera rever a alimentação e praticar exercício.'
          }else{
             result_imc.style.color = '#E74C3C'
-            faixa_imc.innerHTML = 'Sobrepeso'
+            faixa_imc.innerHTML = 'Obsidade'
             faixa_imc.style.color = '#E74C3C'
             faixa_imc.style.fontWeight = 'bold'
             mens.innerHTML = 'Acima do peso recomendado. É aconselhável consultar um profissional de saúde."'
