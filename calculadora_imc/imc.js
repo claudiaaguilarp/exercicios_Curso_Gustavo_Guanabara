@@ -5,6 +5,7 @@ function calcular(){
     let dados = document.getElementById('erro')
     let faixa_imc = document.getElementById('faixa')
     let mens = document.getElementById('mensagem')
+    dados.innerHTML = ''
     let alturaM = Number(altura.value/100)
     let imc = Number(peso.value / (alturaM *alturaM))
 
