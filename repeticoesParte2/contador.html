@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="contador.css">
     <title>Vamos Contar</title>
 </head>
-<body onload="carregar()">
+<body >
     <header>
         <h1>Vamos Contar </h1>
 
@@ -25,7 +25,7 @@
                 <label for="txtpasso">Passo</label>
                 <input type="number" name="txtpasso" id="txtpasso">
             </div>
-            <button type="submit" onclick="contar()" >Contar</button>
+            <button type="button" id="btncontar"" >Contar</button>
         </form>
         <div class="result-area" aria-live="polite">
             <p id="res">Preparando a contagem...</p> 
